@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_listar_cartoes"
+    android:orientation="vertical"
+    tools:context="com.rodrigo.xyz.app.activities.cartaodecredito.ListarCartoesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        android:background="#0090ff">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="Descr"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="Tipo"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:text="Bandeira"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:text="Fatura"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:text="Limite"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp"
+        android:id="@+id/lblListItemCartao"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:id="@+id/resumo"
+        android:background="#0090ff">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="Limite Total"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/txtLimiteTotal"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</LinearLayout>
