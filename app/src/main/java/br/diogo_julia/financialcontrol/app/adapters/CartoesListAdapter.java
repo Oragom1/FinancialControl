@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-
-import br.diogo_julia.financialcontrol.dominio.cartaodecredito.CartaoDeCredito;
-
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.dominio.cartaodecredito.CartaoDeCredito;
 
 public class CartoesListAdapter extends ArrayAdapter<CartaoDeCredito> {
 

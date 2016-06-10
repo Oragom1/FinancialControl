@@ -12,12 +12,12 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.TextView;
 
-
-import br.diogo_julia.financialcontrol.application.DAO.categoriadaoimpl.CategoriaDAO;
-import br.diogo_julia.financialcontrol.dominio.categoria.Categoria;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.application.DAO.categoriadaoimpl.CategoriaDAO;
+import br.diogo_julia.financialcontrol.dominio.categoria.Categoria;
 
 public class CadastroCategoriaFragment extends DialogFragment {
 

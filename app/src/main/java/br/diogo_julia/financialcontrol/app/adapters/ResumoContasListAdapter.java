@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-
-import br.diogo_julia.financialcontrol.dominio.resumo.Resumo;
-
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.dominio.resumo.Resumo;
 
 public class ResumoContasListAdapter extends ArrayAdapter<Resumo> {
 

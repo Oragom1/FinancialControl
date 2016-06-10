@@ -5,9 +5,9 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.ContextMenu;
@@ -18,12 +18,12 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import br.diogo_julia.financialcontrol.application.DAO.categoriadaoimpl.CategoriaDAO;
-
-import br.diogo_julia.financialcontrol.dominio.categoria.Categoria;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.application.DAO.categoriadaoimpl.CategoriaDAO;
+import br.diogo_julia.financialcontrol.dominio.categoria.Categoria;
 
 public class SingleChoiceCategoria extends DialogFragment {
 

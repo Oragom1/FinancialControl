@@ -14,13 +14,13 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.List;
 
+import br.diogo_julia.financialcontrol.R;
 import br.diogo_julia.financialcontrol.app.adapters.ContasListAdapter;
 import br.diogo_julia.financialcontrol.app.utils.TipoConta;
 import br.diogo_julia.financialcontrol.application.DAO.contadaoimpl.ContaDAO;
 import br.diogo_julia.financialcontrol.dominio.conta.Conta;
-
-import java.util.List;
 
 public class ListarContasActivity extends AppCompatActivity {
 

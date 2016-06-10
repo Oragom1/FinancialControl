@@ -11,7 +11,6 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.PieChart;
-
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.PieData;
@@ -21,9 +20,10 @@ import com.github.mikephil.charting.highlight.Highlight;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
-
 import java.util.ArrayList;
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
 
 public class ResumoCategoriasGrafico extends AppCompatActivity {
     private RelativeLayout layout;
@@ -33,6 +33,7 @@ public class ResumoCategoriasGrafico extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resumo_categorias_grafico);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

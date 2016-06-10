@@ -15,22 +15,23 @@ import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.PieChart;
 
-import br.diogo_julia.financialcontrol.application.DAO.contadaoimpl.ContaDAO;
-import br.diogo_julia.financialcontrol.app.adapters.ExpandableListAdapter;
-import br.diogo_julia.financialcontrol.app.charts.ChartCategoria;
-import br.diogo_julia.financialcontrol.dominio.conta.Conta;
-import br.diogo_julia.financialcontrol.app.activities.conta.ListarContasActivity;
-import br.diogo_julia.financialcontrol.app.activities.conta.ListarResumoActivity;
-import br.diogo_julia.financialcontrol.app.utils.TipoConta;
-import br.diogo_julia.financialcontrol.app.activities.cartaodecredito.ListarCartoesActivity;
-import br.diogo_julia.financialcontrol.app.activities.conta.ListarContasCreditoActivity;
-import br.diogo_julia.financialcontrol.application.menu.MenuP;
-
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.app.activities.cartaodecredito.ListarCartoesActivity;
+import br.diogo_julia.financialcontrol.app.activities.conta.ListarContasActivity;
+import br.diogo_julia.financialcontrol.app.activities.conta.ListarContasCreditoActivity;
+import br.diogo_julia.financialcontrol.app.activities.conta.ListarResumoActivity;
+import br.diogo_julia.financialcontrol.app.adapters.ExpandableListAdapter;
+import br.diogo_julia.financialcontrol.app.charts.ChartCategoria;
+import br.diogo_julia.financialcontrol.app.utils.TipoConta;
+import br.diogo_julia.financialcontrol.application.DAO.contadaoimpl.ContaDAO;
+import br.diogo_julia.financialcontrol.application.menu.MenuP;
+import br.diogo_julia.financialcontrol.dominio.conta.Conta;
 
 public class MainActivity extends Activity {
 
@@ -53,12 +54,9 @@ public class MainActivity extends Activity {
     private String[] xData;
     private ChartCategoria chartCategoria;
 
-    /**
-     *
-     * @param savedInstanceState
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         contaDao = new ContaDAO(this);

@@ -21,14 +21,14 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-
-import br.diogo_julia.financialcontrol.app.utils.Mensagem;
-import br.diogo_julia.financialcontrol.application.DAO.creditodaoimpl.CreditoDAO;
-import br.diogo_julia.financialcontrol.app.activities.cartaodecredito.CadastroCartaoCreditoActivity;
-import br.diogo_julia.financialcontrol.dominio.cartaodecredito.CartaoDeCredito;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.app.activities.cartaodecredito.CadastroCartaoCreditoActivity;
+import br.diogo_julia.financialcontrol.app.utils.Mensagem;
+import br.diogo_julia.financialcontrol.application.DAO.creditodaoimpl.CreditoDAO;
+import br.diogo_julia.financialcontrol.dominio.cartaodecredito.CartaoDeCredito;
 
 public class SingleChoiceCartao extends DialogFragment {
 

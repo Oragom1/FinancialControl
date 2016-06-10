@@ -1,10 +1,11 @@
 package br.diogo_julia.financialcontrol.app.activities.login;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import br.diogo_julia.financialcontrol.R;
 
 
 public class LoginActivity extends AppCompatActivity {

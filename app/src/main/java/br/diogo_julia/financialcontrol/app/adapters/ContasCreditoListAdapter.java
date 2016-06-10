@@ -7,13 +7,13 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-
-import br.diogo_julia.financialcontrol.dominio.conta.Conta;
-import br.diogo_julia.financialcontrol.app.utils.TipoConta;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.app.utils.TipoConta;
+import br.diogo_julia.financialcontrol.dominio.conta.Conta;
 
 public class ContasCreditoListAdapter extends ArrayAdapter<Conta> {
 

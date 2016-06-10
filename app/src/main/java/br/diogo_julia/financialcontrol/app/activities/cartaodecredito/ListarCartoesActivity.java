@@ -14,12 +14,12 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-
-import br.diogo_julia.financialcontrol.application.DAO.creditodaoimpl.CreditoDAO;
-import br.diogo_julia.financialcontrol.app.adapters.CartoesListAdapter;
-import br.diogo_julia.financialcontrol.dominio.cartaodecredito.CartaoDeCredito;
-
 import java.util.List;
+
+import br.diogo_julia.financialcontrol.R;
+import br.diogo_julia.financialcontrol.app.adapters.CartoesListAdapter;
+import br.diogo_julia.financialcontrol.application.DAO.creditodaoimpl.CreditoDAO;
+import br.diogo_julia.financialcontrol.dominio.cartaodecredito.CartaoDeCredito;
 
 public class ListarCartoesActivity extends AppCompatActivity {
 
@@ -27,12 +27,12 @@ public class ListarCartoesActivity extends AppCompatActivity {
     SQLiteDatabase database;
     SQLiteOpenHelper dbHelper;
 
-
     //dao classes
     CreditoDAO creditoDao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listar_cartoes);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
